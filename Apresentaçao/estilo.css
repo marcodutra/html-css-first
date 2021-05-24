@@ -1,0 +1,52 @@
+body {
+    background-image: url("frontend.jpg");
+    background-position: top;
+    max-width: 900px;
+    margin: auto;
+}
+
+.fotoperfil{
+    border-radius:  50%;
+}
+
+#title, .post, .apr{
+   
+    color: white;
+
+}
+
+.apr {
+    padding: 10px;
+    width: 140px;
+    background-color: grey;
+    margin: 15px;
+    font-size: 16pix;
+    font-style: italic;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.box {
+    padding: 10px;
+    width: 230px;
+    background-color: grey;
+    margin: 15px;
+    font-size: 16pix;
+    font-style: italic;
+    border: 3px solid rgb(255, 255, 255);
+}
+.post{
+    background-color: grey;
+    padding: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    margin: 10px;
+    text-align: justify;
+}
+
+.lista{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.lista li a {
+    color: white;
+}
